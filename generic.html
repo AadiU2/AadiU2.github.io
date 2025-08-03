@@ -92,7 +92,8 @@
 
 								<h2>Designs By Aadee Website Project</h2>
     								<p>For the Designs By Aadee project, I created a professional website to showcase the work of the design and build firm. As the project lead, I designed and developed the website to highlight the firm's services, showcase completed projects, and share client testimonials. The site features a clean, user-friendly interface, with sections dedicated to the firm’s portfolio, process, and values. This project allowed me to integrate my skills in web development and design, ensuring the site effectively communicates the firm's dedication to quality and client satisfaction.</p>
-
+								<h2>Screenshots</h2>
+                                                                <div id="screenshot-gallery" class="gallery"></div>
 								<hr />
 
 								<h4>Feugiat aliquam</h4>
@@ -101,8 +102,7 @@
                                                                 <p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
 
                                                                 <hr />
-                                                                <h2>Screenshots</h2>
-                                                                <div id="screenshot-gallery" class="gallery"></div>
+                                                                
 
                                                                 <div id="imgModal" class="modal">
                                                                         <span class="close">&times;</span>
@@ -147,7 +147,7 @@
                                 screenshotFiles.forEach((file, index) => {
                                         const img = document.createElement("img");
                                         img.src = "images/" + encodeURIComponent(file);
-                                        img.alt = "Screenshot " + (index + 1);
+                                        img.alt = "Picture " + (index + 1);
                                         gallery.appendChild(img);
                                 });
                                 const modal = document.getElementById("imgModal");
@@ -172,5 +172,6 @@
 
 	</body>
 </html>
+
 
 
